@@ -1,2 +1,10 @@
-var greeting = "Hello, Abhishek!";
-console.log(greeting);
+let greetings: string = "Hello, Abhishek!";
+
+
+let mynum = 6
+
+console.log(mynum);
+console.log(greetings);
+
+
+export {}
