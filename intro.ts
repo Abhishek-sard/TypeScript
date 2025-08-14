@@ -1,4 +1,7 @@
-let user = {name: "Abhishek", age: 25}
+let user = {name: "Abhishek", age: 25, location: "nepal", email: "abhishek@gmail.com"}
 
-console.log("abhishek");
-console.log(user.email); // This will cause an error because 'email' does not exist on 'user'
+console.log("Abhishek");
+console.log(user.name);
+console.log(user.age);
+console.log(user.location);
+console.log(user.email);
