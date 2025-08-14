@@ -1,10 +1,10 @@
-let greetings: string = "Hello, Abhishek!";
-
-
-let mynum = 6
-
-console.log(mynum);
+var greetings = "Hello, Abhishek!";
 console.log(greetings);
-
-
-export {}
+greetings.toLowerCase();
+console.log(greetings);
+//number
+var userId = 334333.4;
+userId.toFixed();
+var isLoggedIn = false;
+//boolean
+var isLoggedIn = false;
