@@ -17,3 +17,15 @@ let isLoggedIn: boolean = false;
 
 let isLoggedIn: boolean = false;
 
+//any
+let hero;
+
+
+function getHero() {
+    return "thor"
+}
+
+
+hero = getHero();
+
+export {}
