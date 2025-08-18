@@ -1,4 +1,23 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-console.log("Typescript is here stil");
+// class User{
+//     public email: string
+//     private name: string
+//     private readonly city: string = "nepal"
+//     constructor(email: string, name: string){
+//         this.email = email;
+//         this.name = name;
+//     }
+// }
+// const user1 = new User("example@example.com", "John Doe" );
+// user1.city
+class User {
+    email;
+    name;
+    city = "nepal";
+    constructor(email, name) {
+        this.email = email;
+        this.name = name;
+    }
+}
+const user1 = new User("example@example.com", "John Doe");
+export {};
 //# sourceMappingURL=index.js.map
