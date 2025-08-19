@@ -34,6 +34,9 @@ class User {
         this._courseCount = courseNum;
     }
 }
+class subUser extends User {
+    isFamily = true;
+}
 const user1 = new User("example@example.com", "John Doe");
 user1.deleteToken();
 export {};

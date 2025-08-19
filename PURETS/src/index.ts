@@ -42,6 +42,14 @@ class User{
     }
 }
 
+class subUser extends User{
+    isFamily: boolean = true;
+    changeCourseCount(){
+        this._courseCount = 4
+    }
+    
+}
+
 const user1 = new User("example@example.com", "John Doe" );
 
 user1.deleteToken();
